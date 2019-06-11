@@ -15,7 +15,7 @@ Future main() async {
 
   await for (HttpRequest request in server) {
     request.response
-      ..write('Hello remote world!')
+      ..write('Hello remote world! ${Platform.operatingSystem}')
       ..close();
   }
 }
