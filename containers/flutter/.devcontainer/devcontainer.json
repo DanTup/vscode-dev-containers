@@ -3,9 +3,5 @@
 	"dockerFile": "Dockerfile",
 	"extensions": [
 		"dart-code.flutter"
-	],
-	// Uncomment the next line if you want to publish any ports.
-	// "appPort": [],
-	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": ""
+	]
 }
