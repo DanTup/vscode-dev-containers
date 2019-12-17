@@ -14,7 +14,7 @@ RUN apt-get autoremove -y \
 RUN mkdir /workspace
 WORKDIR /workspace
 
-RUN git clone --branch stable https://github.com/flutter/flutter \
+RUN git clone --branch master https://github.com/flutter/flutter \
     && flutter doctor
 
 RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip \
